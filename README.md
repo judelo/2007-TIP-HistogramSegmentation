@@ -7,6 +7,7 @@ IEEE Transactions on Image Processing, vol.16, no 1, pp.253-261, Jan. 2007.
 
 The article is available [here](http://www.math-info.univ-paris5.fr/~jdelon/Pdf/2007_Histogram_Segmentation_IEEETIP.pdf).
 
+
 Typical usage :
 
      u = double(imread('../images/lena.png'));
