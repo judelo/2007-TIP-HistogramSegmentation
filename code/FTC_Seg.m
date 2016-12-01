@@ -78,7 +78,7 @@ end
 
 [valmin, kmin] = min(val); %[idx(kmin), idx(kmin+3)] is the first interval to merge
 
-while(valmin<0 && ~isempty(val))
+while(~isempty(val) && valmin<0)
     
     % update the list of min, max
     idx = [idx(1:kmin),idx(kmin+3:end)];       
